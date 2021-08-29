@@ -1,4 +1,4 @@
-var num = 2568,
+var num = 123,
     sum = 0;
 
 while (num) {

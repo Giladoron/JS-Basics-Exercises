@@ -17,3 +17,12 @@ const median = arr => {
 
   console.log(median(grades));
   
+  let haldOfGradesLength = grades.length / 2;
+ grades.splice(0, haldOfGradesLength);
+let max2 = Math.max(...grades);
+let min2 = Math.min(...grades);
+let halfRange = max2 - min2;
+
+  console.log(halfRange)
+
+console.log('Stats:\n\tRange: ' + range + '\n\tMedian:' + medianGrades + '\n\tHalf Range:' + halfRange);
